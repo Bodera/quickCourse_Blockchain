@@ -1,22 +1,23 @@
 ## Registro da transação
 * Fluxo da informação na Blockchain
-1. (__ Solicitação__) - Você solicita a compra daquele imóvel (ou uma transação com criptomoedas, contratos, bens etc.)
+1. (__Solicitação__) - Você solicita a compra daquele imóvel (ou uma transação com criptomoedas, contratos, bens etc.)
 2. (__Transmissão peer-to-peer__) - A solicitação é transmitida para nós chamados mineradores, os quais irão buscar validá-la e incluí-la na Blockchain.
-3. (__Mineração de Dados__) -
-3.1. Os nós “mineram os dados” da transação para verificar se as suas informações, do imóvel e do vendedor estão corretas, a fim de validar a negociação.
-3.2. Como essas informações são protegidas por chaves criptográficas, os mineradores competem para decodificá-las e disponibilizá-las na rede primeiro.
-3.3. Para isso, é necessário investir em computadores com alto poder de processamento de cálculos, com rapidez e eficiência.
-3.4. O trabalho da mineração é remunerado com criptomoedas.
-4. (__Solução__) - 
-4.1. O primeiro computador que resolver o cálculo, disponibiliza o bloco de informações com a solução na rede, para os demais nós checarem se a solução é válida.
-4.2. Alguns nós da rede possuem o histórico ou cópia completa de todas as transações da Blockchain. Eles são chamados fullnodes (ou nós completos).
-4.3. Os demais nós se conectam aos fullnodes para obter as informações necessárias para que as transações sejam processadas.
-5. (__Validação__) -
-5.1. Após validado pela maioria da rede, o novo bloco de dados é adicionado à cadeia de blocos, de modo permanente e inalterável.
-5.2. Cada novo bloco contém 2 códigos chamados hash: um que traz informações referentes ao bloco anterior e outro que representa a sua identificação, que será utilizada pelo próximo bloco.
-5.3. Os hashes trazem segurança às informações, pois sempre que uma solução é encontrada e validada, confirma, ao mesmo tempo, o novo bloco e todos os anteriores. Quanto mais antigo for o bloco, mais seguro ele será, pois teve mais validações.
-5.4. É muito difícil fraudar a rede Blockchain e adulterar um bloco de informações. Para isso, seria necessário que um cracker hacker adulterasse as cópias de todos os blocos em toda a rede, para que o bloco falso fosse validado pela maioria dos nós.
-6. (__Conclusão__) - A transação é concluída. O imóvel passa a ser seu.
+3. (__Mineração de Dados__) -  
+  3.1. Os nós “mineram os dados” da transação para verificar se as suas informações, do imóvel e do vendedor estão corretas, a fim de validar a negociação.  
+  3.2. Como essas informações são protegidas por chaves criptográficas, os mineradores competem para decodificá-las e disponibilizá-las na rede primeiro.  
+  3.3. Para isso, é necessário investir em computadores com alto poder de processamento de cálculos, com rapidez e eficiência.  
+  3.4. O trabalho da mineração é remunerado com criptomoedas.  
+4. (__Solução__) -   
+  4.1. O primeiro computador que resolver o cálculo, disponibiliza o bloco de informações com a solução na rede, para os demais nós checarem se a solução é válida.  
+  4.2. Alguns nós da rede possuem o histórico ou cópia completa de todas as transações da Blockchain. Eles são chamados fullnodes (ou nós completos).  
+  4.3. Os demais nós se conectam aos fullnodes para obter as informações necessárias para que as transações sejam processadas.  
+5. (__Validação__) -  
+  5.1. Após validado pela maioria da rede, o novo bloco de dados é adicionado à cadeia de blocos, de modo permanente e inalterável.  
+  5.2. Cada novo bloco contém 2 códigos chamados hash: um que traz informações referentes ao bloco anterior e outro que representa a sua identificação, que será utilizada pelo próximo bloco.  
+  5.3. Os hashes trazem segurança às informações, pois sempre que uma solução é encontrada e validada, confirma, ao mesmo tempo, o novo bloco e todos os anteriores. Quanto mais antigo for o bloco, mais seguro ele será, pois teve mais validações.  
+  5.4. É muito difícil fraudar a rede Blockchain e adulterar um bloco de informações. Para isso, seria necessário que um cracker hacker adulterasse as cópias de todos os blocos em toda a rede, para que o bloco falso fosse validado pela maioria dos nós.    
+6. (__Conclusão__) - A transação é concluída. O imóvel passa a ser seu. Este bloco de informações fica registrado e armazenado na rede Blockchain, funcionando como um “livro-razão digital”, tornando-se um histórico para a próxima negociação.
+
 Este bloco de informações fica registrado e armazenado na rede Blockchain, funcionando como um “livro-razão digital”, tornando-se um histórico para a próxima negociação.
 
 ## Funcionamento da blockchain
