@@ -37,11 +37,40 @@ Os blocos são formados por hashs que são ligados ao bloco anterior, funcionand
 ## Componentes da blockchain
 Os itens que compõem e permitem o funcionamento da Blockchain são a __transação__, o __bloco__, o __hash__ e o livro-razão (__ledger__). Todos eles estão relacionados. 
 
-A transação é um registro digital. Tomando como base as transações com as criptomoedas, podemos dizer que uma transação é a solicitação de transferência de moedas entre partes.
+A *transação* é um registro digital. Tomando como base as transações com as criptomoedas, podemos dizer que uma transação é a solicitação de transferência de moedas entre partes.
 
-Um bloco pode ser entendido como um conjunto de transações ou informações validadas.
+Um *bloco* pode ser entendido como um conjunto de transações ou informações validadas.
 
-A função de hash (em português, funções de dispersão) tem como principal objetivo compilar dados de qualquer tamanho para um tamanho fixo.
+A *função de hash* (em português, funções de dispersão) tem como principal objetivo compilar dados de qualquer tamanho para um tamanho fixo.
 
-O conjunto de transações dos blocos é registrado no livro-razão (ledger), como um livro contábil.
+O conjunto de transações dos blocos é registrado no livro-razão, o *ledger*, como um livro contábil.
+
+Vamos entender mais a fundo, o que é uma transação na Blockchain. Transação é um registro digital, normalmente composta pelos seguintes dados:
+
+1. ID da Transação (__hash__) é...  
+Identificador único da transação. É obtido por meio de uma função da hash que recebe como entrada os demais dados da transação e gera, dela, um identificador único (ID).
+2. Entrada (__input__) é...  
+Endereço de quem está enviando recursos. Normalmente, é uma referência a algum output de transação anterior, na qual o usuário recebeu uma certa quantia. É possível que uma transação referencie mais do que uma entrada.
+3. Saídas (__outputs__) é...  
+Endereço do(s) destinatário(s) que irão receber o objeto digital.
+4. Quantidade (__amount__) é...  
+A quantia de objeto digital a ser transferido
+5. Marcação do Tempo (__timestamp__) é...  
+Registro de data e horário da transação.
+
+> Dica: acesse https://www.Blockchain.com
+//Imagem
+
+A segurança e o anonimato das transações são garantidos pelas assinaturas digitais dos negociadores. Essas assinaturas são realizadas a partir das chaves pública e privada. Para entender como essas chaves funcionam, você vai conhecer vamos relembrar o conceito de criptografia de chaves assimétricas ou criptografia de chave pública.
+
+A criptografia de chave pública faz uso de um par de chaves matematicamente conectadas, uma chave privada que apenas o proprietário tem acesso e uma chave pública que é distribuída na rede. 
+Computacionalmente, a geração dessas chaves é uma tarefa muito simples. A chave pública é gerada a partir da chave privada. Mas, não é possível gerar a chave privada a partir da chave pública. Dessa forma, podemos publicar a nossa chave pública em uma rede sem temer que a nossa chave privada seja descoberta. 
+
+Mas como esse par de chaves é utilizado na Blockchain?
+
+Para produzir um endereço válido na rede, inicialmente geramos a chave privada de um usuário. A partir da chave privada, diversos algoritmos podem ser utilizados para derivar a chave pública.
+Uma vez que geramos a nossa chave pública, submetemos tal chave ao algoritmo de hash SHA-256, obtendo nosso endereço.
+Na rede bitcoin, por exemplo, esse endereço ainda é submetido a um outro algoritmo (RIPEMD-160), que irá produzir o endereço bitcoin.
+
+É todo esse processo de codificação garante o anonimato nas transações em rede.
 
