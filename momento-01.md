@@ -32,7 +32,6 @@ Nessa rede, todas as informações referentes ao imóvel, ao vendedor e a você 
 Um __registro digital__ permanente de compra e venda é gerado, distribuído para toda a rede e a transação é arquivada em todos os computadores da rede.
 
 >A Ucrânia foi o primeiro país a usar a tecnologia Blockchain na comercialização de imóveis. As negociações são feitas por meio de contratos inteligentes (smart contracts) da rede Ethereum.
-Fonte: Medium.com
 
 <figure>
   <img src="/assets/smart-contract.png" alt="contratos inteligentes">	
@@ -58,7 +57,7 @@ O Bitcoin foi a primeira moeda digital, porém não é a única. Assim como exis
 #### História
 Em 31 de agosto de 2008, em plena crise financeira mundial, o White Paper do Bitcoin, um documento sobre um sistema ponto a ponto de dinheiro eletrônico, foi publicado por Satoshi Nakamoto.
 
-Um White Paper ou, em português, "Livro branco" ou "Relatório Branco", é um documento oficial publicado por um governo ou uma organização internacional, a fim de servir de informe ou guia sobre algum problema e como enfrentá-lo.
+Um White Paper, é um documento oficial publicado por um governo ou uma organização internacional, a fim de servir de informe ou guia sobre algum problema e como enfrentá-lo.
 
 Por falar nisso, você sabe quem é Satoshi Nakamoto? Bom ele pode ser uma pessoa ou um pseudônimo para um grupo de pessoas. Na verdade, ninguém sabe. O que se sabe é que meses depois do lançamento do White Paper, a primeira transação da moeda foi registrada, o que deu origem ao bloco gênesis do Bitcoin, em 03 de janeiro de 2009. 
 
