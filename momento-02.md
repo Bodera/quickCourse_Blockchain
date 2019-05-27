@@ -12,6 +12,10 @@ Cada transação registrada na Blockchain envolve um ou mais endereços (no caso
 Cada transação, ou conjunto de transações, forma um bloco que é adicionado a outros blocos. Esses blocos formam uma cadeia (por isso o nome Blockchain - chain, em inglês, significa cadeia). O termo cadeia refere-se ao encadeamento existente na Blockchain, uma vez que um bloco aponta para o bloco anterior.
 
 Observe a imagem para entender melhor o conceito de registro de transação, bloco e cadeia.
+<figure>
+  <img src="/assets/bloco-cadeia-registro.jpg" alt="componentes do registro de uma transação blockchain">	
+  <figcaption>Componentes do livro-razão.</figcaption>
+</figure>
 
 ## Fluxo da informação na Blockchain
 1. __Solicitação__ - Você solicita a compra daquele imóvel (ou uma transação com criptomoedas, contratos, bens etc.)
@@ -73,4 +77,8 @@ A quantia de objeto digital a ser transferido
 Registro de data e horário da transação.
 
 > Dica: acesse https://www.Blockchain.com
-//Imagem
+
+<figure>
+  <img src="/assets/blockchain-transaction.jpg" alt="exemplo de uma operação na rede blockchain">	
+  <figcaption>Evidência de transação na blockchain.</figcaption>
+</figure>
