@@ -1,4 +1,4 @@
-## Transações utlizando criptomoedas (9/23)
+## Transações utlizando criptomoedas (9/16)
  Para negociar Bitcoin, ou qualquer outra criptomoeda, é preciso ter uma carteira digital, ou simplesmente *wallet*.
 
  Uma wallet de criptomoedas é um programa de software que armazena as criptomoedas e as chaves pública e privada além de interagir com várias blockchains. Com isso, os usuários podem enviar e receber criptomoedas e monitorar seu saldo e suas transações. 
@@ -89,5 +89,16 @@ Chave privada = (d,n) = (1097,1073)
  Uma vez que a transação é recebida, ela pode ser transmitida aos outros nós, para que possa ser incluída na Blockchain. As transações são incluídas na Blockchain pelos nós mineradores (miners).
 
  Além da lista de transações, um bloco possui as seguintes partes:
+ * Cabeçalho do bloco 
+ 1. __Bloco 1__ - Número do bloco de acordo com sua altura na cadeia.
+ 2. __00054551__ - Hash do bloco anterior.
+ 3. __000__ - Dificuldade alvo (*target difficulty*). A dificuldade é um número que regula o tempo que leva para os mineradores adicionarem novos blocos de transações ao blockchain. [Veja mais clicando aqui](https://learnmeabitcoin.com/guide/difficulty).
+ 4. __15:40 10/08/2018__ - Marca temporal (*timestamp*).
+ 5. __7224__ - Valor *nonce*. O nonce é o número de transações enviadas de um determinado endereço. [Aprenda mais clicando aqui](https://kb.myetherwallet.com/posts/transactions/what-is-nonce/).
+ 6. __Raiz de Merkle__ - Hash da lista de transações (Merkle Root Hash ou Merkle tree).
+ * Corpo do bloco 
+ 1. __Assinatura__ - Lista de todas as transações
  
- //image bloco
+<figure>
+  <img src="/assets/block-composition.png" alt="composição de um bloco na rede blockchain">	
+</figure>
