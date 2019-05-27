@@ -1,5 +1,19 @@
-## Registro da transação (9/12)
-* Fluxo da informação na Blockchain
+## Registro da transação (8/12)
+A rede distribuída da Blockchain compartilha o ledger, um tipo de livro-razão¹ público, onde são feitos os registros de transações. Esse livro também pode ser chamado de livro contábil imutável (do inglês *immutable digital ledger*).
+
+¹Termo contábil que refere-se aos registros de todos lançamentos contábeis (crédito e débito) de uma organização.
+
+Os usuários da rede são responsáveis por manter a base de dados, que tem como características principais a __segurança__, a __distribuição__, a __integridade__ dos dados e o __histórico das transações__ registradas no bloco, que permanecem inalteradas após inseridas no ledger (por isso a expressão “livro contábil imutável”).
+
+Cada transação registrada na Blockchain envolve um ou mais endereços (no caso de criptomoeda, a origem e o destino) e o registro de um evento, que é digitalmente assinado² para garantir a autenticidade da transação.
+
+²Tipo de assinatura eletrônica que usa operações matemáticas com base em algoritmos de criptografia para garantir segurança e autenticidade das documentações.
+
+Cada transação, ou conjunto de transações, forma um bloco que é adicionado a outros blocos. Esses blocos formam uma cadeia (por isso o nome Blockchain - chain, em inglês, significa cadeia). O termo cadeia refere-se ao encadeamento existente na Blockchain, uma vez que um bloco aponta para o bloco anterior.
+
+Observe a imagem para entender melhor o conceito de registro de transação, bloco e cadeia.
+
+## Fluxo da informação na Blockchain
 1. __Solicitação__ - Você solicita a compra daquele imóvel (ou uma transação com criptomoedas, contratos, bens etc.)
 2. __Transmissão peer-to-peer__ - A solicitação é transmitida para nós chamados mineradores, os quais irão buscar validá-la e incluí-la na Blockchain.
 3. __Mineração de Dados__ -  
