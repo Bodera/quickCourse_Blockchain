@@ -1,5 +1,5 @@
 # quickCourse_Blockchain
-Curso de aperfeiçoamento de competências ministrado pelo EAD do SENAI.
+Curso de aperfeiçoamento de competências ministrado pelo EAD do SENAI. __(1/3)__
 
 Neste curso de 20h, você vai conhecer o que é Blockchain, seu funcionamento e as possibilidades que esta tecnologia traz para o mundo dos negócios.
 
