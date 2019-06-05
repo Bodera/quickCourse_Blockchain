@@ -1,4 +1,4 @@
-## Transações utlizando criptomoedas (9/16)
+## Transações utlizando criptomoedas (13/16)
  Para negociar Bitcoin, ou qualquer outra criptomoeda, é preciso ter uma carteira digital, ou simplesmente *wallet*.
 
  Uma wallet de criptomoedas é um programa de software que armazena as criptomoedas e as chaves pública e privada além de interagir com várias blockchains. Com isso, os usuários podem enviar e receber criptomoedas e monitorar seu saldo e suas transações. 

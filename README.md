@@ -12,7 +12,7 @@ Você verá:
 5. As aplicações da Blockchain.
 6. As profissões que têm surgido devido a esta tecnologia.
 
-## Muito além das criptomoedas
+## Muito além das criptomoedas (1/4)
 Você sabe o que é blockchain? Com certeza já ouviu falar em bitcoin certo? Mas você também sabia que a blockchain vai muito além das criptomoedas? 
 Pois é, a blockchain é a tecnologia que permite transações comerciais peer-to-peer, ou seja, sem intermediários. 
 
