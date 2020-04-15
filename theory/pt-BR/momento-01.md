@@ -9,10 +9,8 @@ Para os governos, a transparência também é fator primordial, tanto para as re
 
 E para os bancos, a rapidez, a transparência e a segurança proporcionadas pela Blockchain correspondem à redução de custos nas transações.
 
-<figure>
-  <img src="/assets/contxt-blockchain.png" alt="contexto da tecnologia blockchain">	
-  <figcaption>Como o cenário das organizações favorece a blockchain.</figcaption>
-</figure>
+Como o cenário das organizações favorece a blockchain:
+![figure-number01](../assets/contxt-blockchain.png)
 
 ## Você na Blockchain
 E você? Você compraria um veículo pela internet? E um imóvel?
@@ -33,10 +31,8 @@ Um __registro digital__ permanente de compra e venda é gerado, distribuído par
 
 >A Ucrânia foi o primeiro país a usar a tecnologia Blockchain na comercialização de imóveis. As negociações são feitas por meio de contratos inteligentes (smart contracts) da rede Ethereum.
 
-<figure>
-  <img src="/assets/smart-contract.png" alt="contratos inteligentes">	
-  <figcaption>Fluxo da informação na cadeia blockchain.</figcaption>
-</figure>
+Fluxo da informação na cadeia blockchain:
+![figure-number01](../assets/smart-contract.png)
 
 ## Criptomoedas
 Mas, saiba que este tipo de transação é uma tendência não só para registros de imóveis e veículos, mas também para produtos da indústria. Aliás, esse tipo de transação já ocorre há algum tempo com segurança na comercialização de criptomoedas.
@@ -59,13 +55,13 @@ Em 31 de agosto de 2008, em plena crise financeira mundial, o White Paper do Bit
 
 Um White Paper, é um documento oficial publicado por um governo ou uma organização internacional, a fim de servir de informe ou guia sobre algum problema e como enfrentá-lo.
 
-Por falar nisso, você sabe quem é Satoshi Nakamoto? Bom ele pode ser uma pessoa ou um pseudônimo para um grupo de pessoas. Na verdade, ninguém sabe. O que se sabe é que meses depois do lançamento do White Paper, a primeira transação da moeda foi registrada, o que deu origem ao bloco gênesis do Bitcoin, em 03 de janeiro de 2009. 
+Por falar nisso, você sabe quem é Satoshi Nakamoto? Bom ele pode ser uma pessoa ou um pseudônimo para um grupo de pessoas. Na verdade, ninguém sabe. O que se sabe é que meses depois do lançamento do White Paper, a primeira transação da moeda foi registrada, o que deu origem ao bloco gênesis do Bitcoin, em 03 de janeiro de 2009.
 
-O Bitcoin utiliza: a Blockchain para armazenar suas moedas em um livro-razão. A mineração, que inclui um sistema de recompensa pelas transações e recriações de novos blocos. E uma rede distribuída de computadores. Ele utiliza também o sistema POW (proof-of-work) e a criptografia. Suas moedas não foram totalmente emitidas, com quantidade máxima de 21 milhões de Bitcoins, portanto é uma criptomoeda deflacionária.
+O Bitcoin utiliza a Blockchain para armazenar suas moedas em um livro-razão. A mineração, que inclui um sistema de recompensa pelas transações e recriações de novos blocos. E uma rede distribuída de computadores. Ele utiliza também o sistema POW (proof-of-work) e a criptografia. Suas moedas não foram totalmente emitidas, com quantidade máxima de 21 milhões de Bitcoins, portanto é uma criptomoeda deflacionária.
 
 Além dela, existem outras criptomoedas, como o Ether, da rede Ethereum, uma rede muito parecida como a do Bitcoin. A rede Ethereum pode armazenar o Ether, contratos inteligentes e até aplicações. É a plataforma que mais utiliza o Pool de Mineração, onde mais de um minerador recebe recompensa na adição de um novo bloco. O Ethereum utiliza o sistema POW (proof-of-work) e em breve utilizará o sistema POS (proof-of-stake). É uma moeda inflacionária pelo fato de não haver limite máximo de emissão.
 
-Existe também a IOTA, uma plataforma que tem uma projetada para a Internet das Coisas, e que usa a tecnologia Tangle, um grafo acíclico dirigido ao invés da Blockchain para armazenar suas informações. O livro-caixa distribuído da IOTA consiste em um fluxo de transações individuais entrelaçadas. Ela apoia-se no JINN, um processador ternário moderno, feito sob medida para a IOTA. Suas moedas já foram emitidas num total aproximado de 2 quatrilhões e 779 trilhões de unidades. Ela utiliza a unidade MIOTA que representa um milhão de IOTAS para melhor conversão de valores. A IOTA é uma criptomoeda deflacionária, sem taxas e sem mineração. 
+Existe também a [IOTA](https://www.iota.org/), uma plataforma que tem uma projetada para a Internet das Coisas, e que usa a tecnologia Tangle, um grafo acíclico dirigido ao invés da Blockchain para armazenar suas informações. O livro-caixa distribuído da IOTA consiste em um fluxo de transações individuais entrelaçadas. Ela apoia-se no JINN, um processador ternário moderno, feito sob medida para a IOTA. Suas moedas já foram emitidas num total aproximado de 2 quatrilhões e 779 trilhões de unidades. Ela utiliza a unidade MIOTA que representa um milhão de IOTAS para melhor conversão de valores. A IOTA é uma criptomoeda deflacionária, sem taxas e sem mineração.
 
 Além dessas, existe a Nano, que usa a Block-Lattice com estrutura similar à Blockchain. Cada usuário possui uma cadeia de blocos de transações e somente o próprio usuário pode modificá-la. Isso permite que cada Block-Lattice seja atualizada de maneira assíncrona, garantindo maior velocidade à rede. As transações da Nano são mineradas na própria máquina do usuário e suas moedas foram distribuídas em um total aproximado de 133 milhões de unidades. Devido a esse sistema, pelo fato de não haverem mineradores externos, suas transações não têm taxas para o envio. A NANO utiliza o sistema POS e também é uma criptomoeda deflacionária.
 
