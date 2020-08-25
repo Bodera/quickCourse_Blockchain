@@ -66,6 +66,6 @@ On __5th module__ we will build the mobile wallet app using Xamarin to buy digit
 
 ### System configuration
 
-Operating System: Debian 10 (buster)
-Code editor: VS Code + extensions
-Framework: .NET Core
+__Operating System__: Debian 10 (buster)  
+__Code editor__: VS Code + extensions  
+__Framework__: .NET Core  
