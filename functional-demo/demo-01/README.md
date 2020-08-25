@@ -63,3 +63,9 @@ On __3rd module__ we will build the blockchain client application wich interacts
 On __4th module__ we will build a shopping website using the ASP.NET Core and SignalR, here we will set the payment gateway for the cryptocurrency.
 
 On __5th module__ we will build the mobile wallet app using Xamarin to buy digital content from our shopping site.
+
+### System configuration
+
+Operating System: Debian 10 (buster)
+Code editor: VS Code + extensions
+Framework: .NET Core
