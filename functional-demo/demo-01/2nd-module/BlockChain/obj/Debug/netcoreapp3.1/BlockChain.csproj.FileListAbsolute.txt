@@ -35,3 +35,12 @@
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/BlockChain.pdb
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/BlockChain.genruntimeconfig.cache
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/BlockChain.csproj.CopyComplete
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/NBitcoin.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/RSA.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/RSA.pdb
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/BlockChain.MvcApplicationPartsAssemblyInfo.cs
