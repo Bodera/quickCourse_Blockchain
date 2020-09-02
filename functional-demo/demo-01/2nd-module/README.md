@@ -89,6 +89,15 @@ Then go edit the methods *ConfigureServices(IServiceCollection services)* and *C
 
 - Startup.cs
 
-Finally we have to adjust the frontend of the API. Adapt the file:
+Finally we have to adjust the frontend of the API. We've added the folders *blockchain* and *static* in the __wwwroot__ directory.
 
-- HomeController.cs (NOT READY!)
+Adapt the file:
+
+- HomeController.cs
+
+Prepare the *Home* and *Shared* __Views__:
+
+- CoinBase.cshtml
+- Configure.cshtml
+- Index.cshtml
+- Layout.cshtml
