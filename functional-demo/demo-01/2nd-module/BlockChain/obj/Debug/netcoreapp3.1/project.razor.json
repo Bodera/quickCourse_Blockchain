@@ -14422,6 +14422,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/Views/Home/Configure.cshtml",
+      "TargetPath": "Views\\Home\\Configure.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/Views/Home/CoinBase.cshtml",
+      "TargetPath": "Views\\Home\\CoinBase.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"

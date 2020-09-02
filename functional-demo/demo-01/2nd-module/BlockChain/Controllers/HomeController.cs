@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using BlockChain.Models;
+using BlockChain.API;
 
 namespace BlockChain.Controllers
-{
+{ 
     public class HomeController : Controller
     {
+        private static CryptoCurrency blockchain = BlockChainController.blockchain; //new CryptoCurrency();
+
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
@@ -20,9 +23,39 @@ namespace BlockChain.Controllers
 
         public IActionResult Index()
         {
+            //information to be displayed on the Index view
+            List<Transaction> transactions = blockchain.GetTransactions();
+            ViewBag.Transactions = transactions;
+
+            List<Block> blocks = blockchain.GetBlocks();
+            ViewBag.Blocks = blocks;
+
             return View();
         }
+        public IActionResult Mine()
+        {
+            blockchain.Mine();
 
+            return RedirectToAction("Index");
+        }
+        public IActionResult Configure()
+        {
+            return View(blockchain.GetNodes());
+        }
+        public IActionResult RegisterNodes(string nodes)
+        {
+            string[] node = nodes.Split(',');
+            blockchain.RegisterNodes(node);
+
+            return RedirectToAction("Configure");
+        }
+        public IActionResult CoinBase()
+        {
+            List<Block> blocks = blockchain.GetBlocks();
+            ViewBag.Blocks = blocks;
+
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

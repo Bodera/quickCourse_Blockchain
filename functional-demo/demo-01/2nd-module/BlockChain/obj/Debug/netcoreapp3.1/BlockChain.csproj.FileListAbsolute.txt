@@ -44,3 +44,5 @@
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/RSA.dll
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/bin/Debug/netcoreapp3.1/RSA.pdb
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/BlockChain.MvcApplicationPartsAssemblyInfo.cs
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/Razor/Views/Home/CoinBase.cshtml.g.cs
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/2nd-module/BlockChain/obj/Debug/netcoreapp3.1/Razor/Views/Home/Configure.cshtml.g.cs
