@@ -19,7 +19,7 @@ namespace RSA
         }
 
         //Method responsable to sign
-        public static string Sing(string privKey, string msgToSign)
+        public static string Sign(string privKey, string msgToSign)
         {
             //var address = BitcoinAddress.Create(pubKey, Network.Main);
             //var pkh = (address as IPubkeyHashUsable); //pay to pubkey hash
