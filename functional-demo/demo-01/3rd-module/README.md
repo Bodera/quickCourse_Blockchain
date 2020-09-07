@@ -45,8 +45,25 @@ dotnet add package NBitcoin --version 5.0.53
 
 If you already have the [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference) VS Code extension installed, right click on the *BlockChainClient.csproj* file and select the option __Add Reference__. RSA will be displayed as an option, check the RSA option and hit Enter.
 
+## Coding the project
+
 The following classes will compose the __Models__ folder in the BlockChainClient project:
 
 - Block.cs
 - Transaction.cs
 - TransactionClient.cs
+
+Next step is to prepare the Web API of the Blockchain Client App. So the project `BlockChainClient` will have a new folder called *API* which will have one file:
+
+- BlockChainClientController.cs
+
+If you want to enable CORS, then you must remember to add Swagger also:
+
+```bash
+cd BlockChainClient/
+dotnet add package Swashbuckle.AspNetCore --version 5.5.1
+```
+
+Now edit the methods edit the file:
+
+- Startup.cs
