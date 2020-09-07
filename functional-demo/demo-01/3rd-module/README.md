@@ -44,3 +44,9 @@ dotnet add package NBitcoin --version 5.0.53
 ```
 
 If you already have the [.NET Core Add Reference](https://marketplace.visualstudio.com/items?itemName=adrianwilczynski.add-reference) VS Code extension installed, right click on the *BlockChainClient.csproj* file and select the option __Add Reference__. RSA will be displayed as an option, check the RSA option and hit Enter.
+
+The following classes will compose the __Models__ folder in the BlockChainClient project:
+
+- Block.cs
+- Transaction.cs
+- TransactionClient.cs
