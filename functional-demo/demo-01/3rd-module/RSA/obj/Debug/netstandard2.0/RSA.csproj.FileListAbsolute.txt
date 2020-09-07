@@ -1,0 +1,9 @@
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/bin/Debug/netstandard2.0/RSA.deps.json
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/bin/Debug/netstandard2.0/RSA.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/bin/Debug/netstandard2.0/RSA.pdb
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.csprojAssemblyReference.cache
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.AssemblyInfoInputs.cache
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.AssemblyInfo.cs
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.csproj.CoreCompileInputs.cache
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/obj/Debug/netstandard2.0/RSA.pdb

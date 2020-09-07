@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/fLXlhapxEuNdZaFUSqPUkRJbkc48aFsRQHfp/bBsvWq1BspNoEODiBFmkXpeE/bxzt8Yo3to31l92czrHDu1Q==",
+  "success": true,
+  "projectFilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/RSA/RSA.csproj",
+  "expectedPackageFiles": [
+    "/home/bode/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/bode/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
