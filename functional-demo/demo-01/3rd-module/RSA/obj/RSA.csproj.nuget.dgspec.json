@@ -36,6 +36,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[5.0.53, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
