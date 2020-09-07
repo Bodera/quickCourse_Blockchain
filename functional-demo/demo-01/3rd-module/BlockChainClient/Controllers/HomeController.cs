@@ -23,6 +23,11 @@ namespace BlockChainClient.Controllers
             return View();
         }
 
+        public IActionResult MakeTransaction()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();
