@@ -30,3 +30,15 @@ dotnet sln add BlockChainClient/BlockChainClient.csproj
 dotnet sln add RSA/RSA.csproj
 dotnet build
 ```
+
+The following `RSA` classes will be reused:
+
+- Wallet.cs
+- RSA.cs
+
+Don't forget to add __NBitcoin NuGet package__ to the `RSA` class library:
+
+```bash
+cd RSA/
+dotnet add package NBitcoin --version 5.0.53
+```
