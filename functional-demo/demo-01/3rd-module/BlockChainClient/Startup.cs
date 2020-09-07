@@ -8,11 +8,15 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.OpenApi.Models;
 
 namespace BlockChainClient
 {
     public class Startup
     {
+        // Defining policy name
+        readonly string AllowedSpecificOrigins = "_allowedSpecificOrigins";
+        
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,6 +28,35 @@ namespace BlockChainClient
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddCors(o => o.AddPolicy(name: AllowedSpecificOrigins, builder => 
+            {
+                builder.AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader();
+            }));
+
+            // Register the Swagger generator, defining one or more Swagger documents
+            services.AddSwaggerGen(c => 
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo {
+                    Version = "v1",
+                    Title = "DescentraLedger Client API",
+                    Description = "Blockchain Client API developed as part of the monograph to FATEC-Indaiatuba",
+                    TermsOfService = new Uri("/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Rafael N. Brito",
+                        Email = "rafaelrafa990@gmail.com",
+                        Url = new Uri("https://github.com/bodera")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Mozilla Public License v2.0",
+                        Url = new Uri("https://www.mozilla.org/en-US/MPL/2.0/")
+                    }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -42,7 +75,19 @@ namespace BlockChainClient
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            // Enable middleware to serve generated Swagger as a JSON endpoint
+            app.UseSwagger();
+
+            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.) specifying the Swagger JSON endpoint.
+            app.UseSwaggerUI(c =>
+            {
+                //http://localhost:<port>/swagger
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "DescentraLedger API v1");
+            });
+
             app.UseRouting();
+
+            app.UseCors(AllowedSpecificOrigins);
 
             app.UseAuthorization();
 
