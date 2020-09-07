@@ -15,18 +15,18 @@ Commands to create a new __ASP .NET MVC__ application:
 ```bash
 cd 3rd-module
 dotnet new mvc -o BlockChainClient
-code -r BlockChainClient
+code -r BlockChainClient/
 ```
 
-A dialog will be prompted asking the following: *Required assets to build and debug are missing from 'BlockChain'. Add them?*. Just select *Yes*.
+A dialog will be prompted asking the following: *Required assets to build and debug are missing from 'BlockChainClient'. Add them?*. Just select *Yes*.
 
-This solution will also needs the `RSA` class library, so let's start the set up. From parent directory `BlockChainClient` run the following commands:
+This solution will also needs the `RSA` class library, so let's start the set up. From parent directory `3rd-module` run the following commands:
 
 ```bash
 mkdir RSA
 dotnet new sln
 dotnet new classlib -o RSA
-dotnet sln add BlockChainClient.csproj
+dotnet sln add BlockChainClient/BlockChainClient.csproj
 dotnet sln add RSA/RSA.csproj
 dotnet build
 ```
