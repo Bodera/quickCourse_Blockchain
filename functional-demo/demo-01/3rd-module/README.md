@@ -67,3 +67,18 @@ dotnet add package Swashbuckle.AspNetCore --version 5.5.1
 Now edit the methods edit the file:
 
 - Startup.cs
+
+Let's head into the frontend code. Under __wwwroot__ directory we've added the *static* folder containing bootstrap files and jQuery + Ajax scripts.
+
+From *Views* ➔ *Shared*, change the file:
+
+- _Layout.cshtml
+
+From *Views* ➔ *Home*, change/create the files:
+
+- Index.cshtml
+- MakeTransaction.cshtml
+
+The __Controllers__ folder need to be updated:
+
+- HomeController.cs
