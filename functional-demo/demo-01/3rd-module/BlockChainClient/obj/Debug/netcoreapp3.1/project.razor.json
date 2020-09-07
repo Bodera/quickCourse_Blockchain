@@ -14402,6 +14402,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/Views/Home/MakeTransaction.cshtml",
+      "TargetPath": "Views\\Home\\MakeTransaction.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
