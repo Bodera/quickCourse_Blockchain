@@ -53,7 +53,7 @@ namespace BlockChain.Models
             var block = new Block
             {
                 Index = _chain.Count,
-                Timestamp = DateTime.UtcNow,
+                Timestamp = DateTime.Now, //Local time, can use UTC if have justification
                 Transactions = _currentTransactions.ToList(),
                 Proof = proof,
                 PreviousHash = previousHash ?? GetHash(_chain.Last()) //null coalescence operator
