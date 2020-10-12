@@ -14397,6 +14397,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/Views/Home/ViewTransaction.cshtml",
+      "TargetPath": "Views\\Home\\ViewTransaction.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/Views/Shared/_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

@@ -10,7 +10,7 @@ namespace BlockChainClient.Models
         public decimal Amount { get; set; }
         public string Recipient_Address { get; set; }
         public string Sender_Address { get; set; }
-        public string Sender_PrivateKey { get; set; }
+        public string Sender_Private_Key { get; set; }
         public decimal Fees { get; set; }
 
         public override string ToString()

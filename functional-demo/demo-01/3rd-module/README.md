@@ -78,6 +78,14 @@ From *Views* ➔ *Home*, change/create the files:
 
 - Index.cshtml
 - MakeTransaction.cshtml
+- ViewTransaction.cshtml
+
+Before moving to next step, it's needed to add the __Newtonsoft.Json NuGet package__ to the project, just run the following commands:
+
+```bash
+cd BlockChainClient/
+dotnet add package Newtonsoft.Json --version 12.0.3
+```
 
 The __Controllers__ folder need to be updated:
 

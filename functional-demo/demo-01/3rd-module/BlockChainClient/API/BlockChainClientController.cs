@@ -28,7 +28,7 @@ namespace BlockChainClient.API
         [HttpPost("generate/transaction")]
         public IActionResult new_transaction(TransactionClient transaction)
         {
-            var sign = RSA.RSA.Sign(transaction.Sender_PrivateKey, transaction.ToString());
+            var sign = RSA.RSA.Sign(transaction.Sender_Private_Key, transaction.ToString());
             var rsp = new
             {
                 transaction = transaction,

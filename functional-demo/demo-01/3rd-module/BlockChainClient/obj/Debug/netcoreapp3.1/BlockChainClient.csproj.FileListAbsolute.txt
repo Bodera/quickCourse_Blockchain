@@ -35,3 +35,14 @@
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/BlockChainClient.pdb
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/BlockChainClient.genruntimeconfig.cache
 /home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/BlockChainClient.csproj.CopyComplete
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/NBitcoin.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/RSA.dll
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/bin/Debug/netcoreapp3.1/RSA.pdb
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/BlockChainClient.MvcApplicationPartsAssemblyInfo.cs
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/Razor/Views/Home/MakeTransaction.cshtml.g.cs
+/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/obj/Debug/netcoreapp3.1/Razor/Views/Home/ViewTransaction.cshtml.g.cs

@@ -49,7 +49,7 @@
         <div class="row">
             <label class="col-sm-2">Amount to Send:</label>
             <div class="col-sm-10">
-                <input type="text" name="amount" id="amount" rows="2" class="form-control" value="">
+                <input type="text" name="amount" id="Amount" rows="2" class="form-control" value="">
             </div>
         </div>
 
@@ -94,7 +94,7 @@
                     <div class="row">
                         <label class="col-sm-12">Sender Address:</label>
                         <div class="col-sm-12">
-                            <input type="text" name="Sender" id="confirmation_sender_address" rows="2" class="form-control" readonly>
+                            <input type="text" name="Sender_Address" id="confirmation_sender_address" rows="2" class="form-control" readonly>
 
                         </div>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="row">
                         <label class="col-sm-12">Recipient Address:</label>
                         <div class="col-sm-12">
-                            <input type="text" name="Recipient" id="confirmation_recipient_address" rows="2" class="form-control" readonly>
+                            <input type="text" name="Recipient_Address" id="confirmation_recipient_address" rows="2" class="form-control" readonly>
                         </div>
                     </div>
 
@@ -193,8 +193,8 @@
                 data: $('#transaction_form').serialize(),
                 success: function (response) {
 
-                    document.getElementById("confirmation_sender_address").value = response["transaction"]["sender_address"];
-                    document.getElementById("confirmation_recipient_address").value = response["transaction"]["recipient_address"];
+                    document.getElementById("confirmation_sender_address").value = response["transaction"]["sender_Address"];
+                    document.getElementById("confirmation_recipient_address").value = response["transaction"]["recipient_Address"];
                     document.getElementById("confirmation_amount").value = response["transaction"]["amount"];
                     document.getElementById("confirmation_fees").value = response["transaction"]["fees"];
                     document.getElementById("transaction_signature").value = response["signature"];

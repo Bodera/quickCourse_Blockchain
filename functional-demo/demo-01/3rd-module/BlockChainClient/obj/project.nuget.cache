@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/m4rliomgEmrm9YTZDcyAQxGbgoAxrzwIIe9Kul7vzVYjJYOECy8oB2ph8sOisKfY02n8S9NN9GTP7M6Np5bvQ==",
+  "dgSpecHash": "9NZM0VcdSVn3u53GTFi6qsH3NNZCfmagI4n5TUfvfwgaGKJ7mtJybKpqgLkdEzSdqpHX2OxT6zGDyPrKZSz1gw==",
   "success": true,
   "projectFilePath": "/home/bode/Documentos/git-myRepos/quickCourse_Blockchain/functional-demo/demo-01/3rd-module/BlockChainClient/BlockChainClient.csproj",
   "expectedPackageFiles": [
@@ -10,7 +10,7 @@
     "/home/bode/.nuget/packages/microsoft.netcore.targets/1.0.1/microsoft.netcore.targets.1.0.1.nupkg.sha512",
     "/home/bode/.nuget/packages/microsoft.openapi/1.1.4/microsoft.openapi.1.1.4.nupkg.sha512",
     "/home/bode/.nuget/packages/nbitcoin/5.0.53/nbitcoin.5.0.53.nupkg.sha512",
-    "/home/bode/.nuget/packages/newtonsoft.json/11.0.1/newtonsoft.json.11.0.1.nupkg.sha512",
+    "/home/bode/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/home/bode/.nuget/packages/swashbuckle.aspnetcore/5.5.1/swashbuckle.aspnetcore.5.5.1.nupkg.sha512",
     "/home/bode/.nuget/packages/swashbuckle.aspnetcore.swagger/5.5.1/swashbuckle.aspnetcore.swagger.5.5.1.nupkg.sha512",
     "/home/bode/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.5.1/swashbuckle.aspnetcore.swaggergen.5.5.1.nupkg.sha512",
