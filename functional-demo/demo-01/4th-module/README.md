@@ -14,7 +14,11 @@ Adicione as seguintes classes na pasta __Models__:
 - User
 - Video
 - Product
-- PDF
 
-Counting the *ErrorViewModel.cs* the __Models__ folder should have 7 classes.
+Counting the *ErrorViewModel.cs* the __Models__ folder should have 6 classes.
 
+We shoul add some __wwwroot__ assets:
+
+- images/
+- js/qrcode.js
+- js/qrcode.min.js
