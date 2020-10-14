@@ -22,3 +22,32 @@ We shoul add some __wwwroot__ assets:
 - images/
 - js/qrcode.js
 - js/qrcode.min.js
+
+To enable "real time" web communication to our demo, we will add the `SignalR` NuGet library. By real time we mean to enable remote procedures call between server and client. Feel free to [read the docs](https://docs.microsoft.com/pt-br/aspnet/core/signalr/introduction?view=aspnetcore-3.1).
+
+From our directory `EcommerceApp/` run:
+
+```bash
+> dotnet add package Microsoft.AspNetCore.SignalR --version 1.1.0
+```
+
+__Tip__:
+
+Run `dotnet list package` in order to verify if installation was suceed.
+
+Now lets add the `signalr/` folder into `lib/` inside `wwwroot/`. Run:
+
+```bash
+> dotnet tool install -g Microsoft.Web.LibraryManager.Cli
+```
+
+Then we should be able to get the signalr `.js` scripts using LibMan tool.
+
+```bash
+> libman install @microsoft/signalr@latest -p unpkg -d wwwroot/js/signalr --files dist/browser/signalr.js --files dist/browser/signalr.min.js
+```
+
+To properly configure SignalR, a few modifications need to be performed:
+
+- Hubs/ChatHub.cs
+- Startup.cs
