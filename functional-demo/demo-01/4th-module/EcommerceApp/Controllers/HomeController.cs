@@ -6,19 +6,38 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using EcommerceApp.Models;
+using EcommerceApp.Hubs;
+using Microsoft.AspNetCore.SignalR;
 
 namespace EcommerceApp.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private IHubContext<ChatHub> HubContext { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IHubContext<ChatHub> hubcontext)
         {
-            _logger = logger;
+            HubContext = hubcontext;
         }
 
         public IActionResult Index()
+        {
+            var catalogue = ListVideo.Videos();
+            ViewBag.Videos = catalogue;
+            return View();
+        }
+
+        //localhost = ::1
+        public async Task<IActionResult> ApiCall(string ip, int id)
+        {
+            await this.HubContext.Clients.All.SendAsync(ip, id, ListVideo.Videos().First(x => x.Id == Convert.ToInt32(id)));
+            
+            VideoOwned.AddUser(ip, id);
+
+            return Content("successfull");
+        }
+
+        public IActionResult QrGenerate()
         {
             return View();
         }

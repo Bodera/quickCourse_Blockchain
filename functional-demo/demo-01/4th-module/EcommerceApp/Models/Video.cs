@@ -21,8 +21,9 @@ namespace EcommerceApp.Models
         {
             var catalogue = new List<Video>
             {
-                new Video {},
-                new Video {}
+                new Video { Id = 1, Title = "Trip Request", URL = "58rXvxcvovc", Image = "", Price = 2 },
+                new Video { Id = 2, Title = "Nuclear Bombs", URL = "SHZAaGidUbg", Image = "", Price = 4 },
+                new Video { Id = 3, Title = "Intro to COBOL", URL = "ycHXzbAmY94", Image = "", Price = 6 }
             };
             return catalogue;
         }

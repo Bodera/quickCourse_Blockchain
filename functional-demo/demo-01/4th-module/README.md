@@ -51,3 +51,20 @@ To properly configure SignalR, a few modifications need to be performed:
 
 - Hubs/ChatHub.cs
 - Startup.cs
+
+At this moment we should test if our project until here works as we expect.
+
+```txt
+http://localhost:9001/
+http://localhost:9001/Home/ApiCall?ip=::1&id=3
+```
+
+Check validation scenario document here.
+
+The next step is to add another view to generate valid QR-Codes. Change the following files:
+
+- HomeController.cs
+- QrGenerate.cshtml
+- _Layout.cshtml
+
+Now it's time to implement the payment API.
