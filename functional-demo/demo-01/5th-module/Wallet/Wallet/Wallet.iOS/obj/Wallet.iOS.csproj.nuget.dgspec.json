@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.iOS\\Wallet.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.iOS\\Wallet.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.iOS\\Wallet.iOS.csproj",
+        "projectName": "Wallet.iOS",
+        "projectPath": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.iOS\\Wallet.iOS.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[4.1.1.34, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.0.0.482510, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+adaptive-icon;obj\Debug\71\res\mipmap-anydpi-v26\icon.xml
+adaptive-icon;obj\Debug\71\res\mipmap-anydpi-v26\icon_round.xml
+android.support.design.widget.TabLayout;obj\Debug\71\res\layout\tabbar.xml
+android.support.v7.widget.Toolbar;obj\Debug\71\res\layout\toolbar.xml
+background;obj\Debug\71\res\mipmap-anydpi-v26\icon.xml
+background;obj\Debug\71\res\mipmap-anydpi-v26\icon_round.xml
+color;obj\Debug\71\res\values\colors.xml
+foreground;obj\Debug\71\res\mipmap-anydpi-v26\icon.xml
+foreground;obj\Debug\71\res\mipmap-anydpi-v26\icon_round.xml
+FrameLayout;C:\Users\rafae\Downloads\BlockChainClient\source-code-all\udemy\Wallet\Wallet\Wallet.Android\obj\Debug\71\lp\21\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;C:\Users\rafae\Downloads\BlockChainClient\source-code-all\udemy\Wallet\Wallet\Wallet.Android\obj\Debug\71\lp\21\jl\res\layout\zxingscannerfragmentlayout.xml
+item;obj\Debug\71\res\values\styles.xml
+resources;C:\Users\rafae\Downloads\BlockChainClient\source-code-all\udemy\Wallet\Wallet\Wallet.Android\obj\Debug\71\lp\20\jl\res\values\strings.xml
+resources;obj\Debug\71\res\values\colors.xml
+resources;obj\Debug\71\res\values\styles.xml
+string;C:\Users\rafae\Downloads\BlockChainClient\source-code-all\udemy\Wallet\Wallet\Wallet.Android\obj\Debug\71\lp\20\jl\res\values\strings.xml
+style;obj\Debug\71\res\values\styles.xml

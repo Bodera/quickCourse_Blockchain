@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.Android\\Wallet.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.Android\\Wallet.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.Android\\Wallet.Android.csproj",
+        "projectName": "Wallet.Android",
+        "projectPath": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.Android\\Wallet.Android.csproj",
+        "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rafae\\Downloads\\BlockChainClient\\source-code-all\\udemy\\Wallet\\Wallet\\Wallet.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rafae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid71"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid71": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid71": {
+          "dependencies": {
+            "NBitcoin": {
+              "target": "Package",
+              "version": "[4.1.1.34, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v4": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.AppCompat": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.CardView": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Android.Support.v7.MediaRouter": {
+              "target": "Package",
+              "version": "[25.4.0.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.0.0.482510, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.3.2, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}
